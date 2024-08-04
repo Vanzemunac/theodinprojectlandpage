@@ -1,0 +1,211 @@
+*{
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 0.5% 15% 3.5% 15%;
+    display: flex;
+    gap: 25px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+}
+
+#razdvoji{
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.first{
+    display: flex;
+    padding: 1.5% 15% 7% 15%;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 50px;
+}
+
+.right{
+    width: 500px;
+    height: 200px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(109, 116, 125);
+}
+
+.left{
+    flex: 1;
+}
+
+#naslov{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#dugme1{
+    background-color: #3882F6;
+    border: 0;
+    color: #E5E7EB;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 15px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.images-with-texts{
+    padding: 0.5% 15% 0.5% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.image-and-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.text{
+    font-size: 22px;
+    text-align: center;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    border-style: dashed;
+    border-radius: 15px;
+    border-color: #3882F6;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    padding: 7.5% 15% 3.5% 15%;
+    background-color: #E5E7EB;
+    gap: 15px;
+}
+
+.second1{
+    display: flex;
+    justify-content: right;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.first1{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    text-align: center;
+}
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 40px;
+}
+
+.rectangle{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color:#f9faf8;
+    border-radius: 12px;
+    margin-top: 5%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+#naslov{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+#ispod-naslov{
+    font-size: 23px;
+    margin-top: 0;
+}
+
+#dugme2{
+    background-color: #3882F6;
+    border-color: #f9faf8;
+    color: #E5E7EB;
+    
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+button{
+    background: none;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+button {
+    box-shadow: none;
+}
+
